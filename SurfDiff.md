@@ -17,9 +17,9 @@ The reality.
 ##3. Methodology
 In this section I describe the approach for calculating the difference between two surfaces composed of cloud points which is subsequently mapped onto a mesh of quadrilateral elements, using arithmetic averaging or kriging.
 ![Top (red) and bottom (blue) surfaces gridded from points clouds using PyVista’s 2D Delaunay triangulation (Sullivan & Kaszynski, 2019). Five (5)a times vertical exaggeration.](https://github.com/benitez9rh/tkintersurfdiff/blob/main/GWTopBottomVExag10.png)
-
+*Top (red) and bottom (blue) surfaces gridded from points clouds using PyVista’s 2D Delaunay triangulation (Sullivan & Kaszynski, 2019). Five (5)a times vertical exaggeration.*
 ![Representation of the difference calculation between surfaces. The bottom surface (not gridded) points’ (blue) are projected vertically along the z-axis until they cross the top surface (grided). The difference between the bottom surface’s points (blue) and the intersection points (purple) is calculated. The projections are done in both directions in case the gridded surface is below, which renders a negative distance (case on the left).](https://github.com/benitez9rh/tkintersurfdiff/blob/main/ApertureCalculation.png)
-
+*Representation of the difference calculation between surfaces. The bottom surface (not gridded) points’ (blue) are projected vertically along the z-axis until they cross the top surface (grided). The difference between the bottom surface’s points (blue) and the intersection points (purple) is calculated. The projections are done in both directions in case the gridded surface is below, which renders a negative distance (case on the left).*
 ###	-Data
 The data used
 
