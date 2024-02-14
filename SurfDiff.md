@@ -5,7 +5,7 @@ Gonçalo Benitez Cunha<sup>1</sup>
 Corresponding author: Gonçalo Cunha ([g.cunha@ed.ac.uk](g.cunha@ed.ac.uk))
 
 
-##1. Summary
+## 1. Summary
 
 In academic research, as well as in many other industrial applications, there is the need for calculating the distance between points. This is normally a trivial exercise for point-to-point calculation. However, it complicates when the inputs are point clouds instead of single points and even further when these points are not aligned in the dimension of interest, hence a simple arithmetic or trigonometric calculation is not possible. This work elaborates on an approach used to calculate the distance between two point clouds applied to a real-life research application: Calculating the aperture and permeability fields between two surfaces of a rock fracture for Finite Element Method (FEM) numerical modelling.
 This calculation is facilitated by a Python-based Graphical User Interface (GUI) which maps the calculated aperture distribution onto a mesh intended for FEM numerical modelling.
@@ -15,12 +15,12 @@ In this paper, we introduce the method of upscaling a Freiberg gneiss’ single 
 The objective of this study was to utilise a spatial description technique such as the variogram analysis to inform a kriging algorithm in order to better predict the upscaled value of the elements in coupled THMC processes numerical models. In order to assess if this technique was suitable, a comparison was made between fine and coarse models with aperture averaging and kriging using the spatial continuity of the aperture field.
 
 
-##2. Statement of need
+## 2. Statement of need
 
 The reality.
 
 
-##3. Methodology
+## 3. Methodology
 
 In this section I describe the approach for calculating the difference between two surfaces composed of cloud points which is subsequently mapped onto a mesh of quadrilateral elements, using arithmetic averaging or kriging.
 ![Top (red) and bottom (blue) surfaces gridded from points clouds using PyVista’s 2D Delaunay triangulation (Sullivan & Kaszynski, 2019). Five (5)a times vertical exaggeration.](https://github.com/benitez9rh/tkintersurfdiff/blob/main/GWTopBottomVExag10.png)
