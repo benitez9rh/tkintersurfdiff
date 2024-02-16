@@ -16,6 +16,7 @@ Fluid flow numerical simulations through fractures rely on representations of fr
 In this paper, we introduce the method of upscaling a Freiberg gneiss’ single rough fracture aperture field using its spatial continuity through a kriging algorithm. The method is then tested by comparing the two methods (arithmetic averaging and kriging) in two different sized meshes in a finite element method (FEM) coupled hydro-mechanical model.
 The objective of this study was to utilise a spatial description technique such as the variogram analysis to inform a kriging algorithm in order to better predict the upscaled value of the elements in coupled THMC processes numerical models. In order to assess if this technique was suitable, a comparison was made between fine and coarse models with aperture averaging and kriging using the spatial continuity of the aperture field.
 
+![Error Calculation Method. \label{fig:ErrorCalcMeth}](Figures/ApertureCalculation)
 
 ## 2. Statement of need
 
