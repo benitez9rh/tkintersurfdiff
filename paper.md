@@ -29,3 +29,12 @@ Open fractures in rocks facilitate the flow of fluids compared to the porous roc
 PyVista's package [@SullivanKaszynski2019] allows for much of the modelling required in this exercise but only offers the projection of the normals of the gridded surface cells thus lacking the projection in the vertical direction.
 
 In this paper, we introduce a Python code allowing for the calculation of two point clouds' difference in the vertical direction wrapped in a simple and easy-to-use tkinter [@Lundh1999] GUI, streamlining the experience of browsing the computer system for the input files and eliminating the need to code. Various other Python [@VanRossum1995] packages are used including Pandas [@McKinney2010], Numpy [@Numpy2020], Scipy [@Scipy2020], Scikit-Learn [@Scikit-learn2011] and Matplotlib [@matplotlib2007].
+
+
+## Acknowledgements
+
+This work was possible due to the sponsorship of Quintessa, the School of Geosciences at the The University of Edinburgh and Nuclear Waste Services, part of the Nuclear Decommissioning Authority in the United Kingdom.
+
+
+## References
+
