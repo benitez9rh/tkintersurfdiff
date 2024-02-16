@@ -51,3 +51,13 @@ N	Xn	Yn	Zn
 ```
 
 The output is a file of the same format (tab delimited) with .txt extension containing the exact same XY locations as the bottom surface in the first two columns as well as the differences in the third column.
+
+### Graphical User Interface (GUI)
+
+The GUI showne below offers an easy-to-use platform to browse the two point clouds' input files and perform the calculations at the click of a button.
+The input files' windows provide a way to verify the input files' formats and quickly identify the necessary input parameters (header row, rows to skip and columns to read) without the need to open third-party software.
+
+![Figure 3 - Graphical User Interface.](Figures/GUI.PNG)
+
+*Graphical User Interface*
+
