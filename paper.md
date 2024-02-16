@@ -35,7 +35,7 @@ In this paper, we introduce a Python code allowing for the calculation of two po
 
 This work was possible due to the sponsorship of Quintessa, the School of Geosciences at the The University of Edinburgh and Nuclear Waste Services, part of the Nuclear Decommissioning Authority in the United Kingdom.
 Various other Python [@VanRossum1995] packages are used including Pandas [@McKinney2010], Numpy [@Harris2020], Scipy [@Virtanen2020], Scikit-Learn [@Pedregosa2011] and Matplotlib [@Hunter2007].
-Other non-published code used is cited and acknowledged accordingly as comments and links in the code.
+Other non-published code used is cited and acknowledged accordingly as comments and/or links in the code.
 
 
 ## References
