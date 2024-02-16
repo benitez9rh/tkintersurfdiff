@@ -22,7 +22,6 @@ In academic research, as well as in many other industrial applications, there is
 
 ![Gridded Surfaces from point clouds.\label{fig:TopBottomVExag10}](Figures/TopBottomVExag10.png)
 
-\autoref{fig:TopBottomVExag10} - Gridded Surfaces from point clouds.
 
 ## 2. Statement of need
 
