@@ -1,7 +1,29 @@
 # tkintersurfdiff
 
+## Installation
 
-## Methodology
+The code itself doesn't require any installation but it requires a Python installation in the computer system.
+
+## Dependencies
+
+The code has some Python packages dependencies. You can use the command ```pip install ``` followed by a whitespace and the package name in your Python terminal to install the packages into your library.
+
+The list of package dependencies is as follows:
+
++ pathlib (pahtlib is now part of Python standard library as of Python v3.4) Thus it requires pip installation from v3.3 and earlier.
++ tkinter
++ time
++ scipy
++ pandas
++ numpy
++ ast
++ matplotlib
++ pykrige
++ sklearn
++ pyvista
+
+
+## Description
 
 In this section I describe the approach for calculating the difference between two surfaces composed of cloud points which is subsequently mapped onto a mesh of quadrilateral elements, using arithmetic averaging or kriging.
 Both the red and blue surfaces in Figure 1 are gridded from individual point clouds using PyVista’s [@SullivanKaszynski2019]  package’s 2D Delaunay triangulation method. Each high or low in these surfaces corresponds to a point from the input point cloud. The surfaces correspond to two topographical surfaces represented with 10x vertical exaggeration. PyVista does have the option to measure this space normally to the surface’s cells, but not vertically. Therefore, the code hereby presentedcomputes the space between the two surfaces measured vertically along the z-axis at the resolution of the point clouds.
