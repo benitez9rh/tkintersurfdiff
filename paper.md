@@ -1,12 +1,19 @@
 ---
 title: 'Calculate difference between point clouds representing two surfaces: a Tkinter Graphical User Interface Python code'
+
 tags:
-  - python
-  - tkinter
+  - Python
+  - Tkinter GUI
+  - Geometry
+  - Rock fractures
+  - Surface difference
+  - Error
+
 authors:
  - name: Gonçalo Benitez Cunha
    orcid: 0009-0007-5441-3790
    affiliation: "1"
+   
 affiliations:
  - name: The University of Edinburgh, Edinburgh, Scotland, United Kingdom
    index: 1
@@ -35,7 +42,7 @@ In this paper, we introduce a Python code allowing for the calculation of two po
 
 This work was possible due to the sponsorship of Quintessa, the School of Geosciences at the The University of Edinburgh and Nuclear Waste Services, part of the Nuclear Decommissioning Authority in the United Kingdom.
 Various other Python [@VanRossum1995] packages are used including Pandas [@McKinney2010], Numpy [@Harris2020], Scipy [@Virtanen2020], Scikit-Learn [@Pedregosa2011] and Matplotlib [@Hunter2007].
-Other non-published code used is cited and acknowledged accordingly as comments and/or links in the code.
+Other smaller and non-published code contributions used are cited and acknowledged accordingly as comments and/or links in the code.
 
 
 ## References
