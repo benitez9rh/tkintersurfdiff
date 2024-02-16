@@ -28,12 +28,14 @@ In academic research, as well as in many other industrial applications, there is
 Open fractures in rocks facilitate the flow of fluids compared to the porous rock body [@McDermott2015; @McCraw2016], especially in rocks with relatively impermeable rocks. Each fracture face roughness distribution contributes to the distribution of space between the two faces, or aperture of the fracture. The aperture distribution of a fracture is one of the main factors for permeability increase through that fracture. To calculate the aperture spatial distribution between two fracture surfaces, or likewise the error map between two surfaces, the vertical difference between these surfaces needs to be calculates. The input point clouds seldom have matching (x, y) coordinates which would allow simple point-to-point attribute difference (z-coordinate in this example). Therefore, gridding of the point clouds is necessary for interpolation between the input points allowing the calculation of intersection points at the (x, y, attribute) of one of the surfaces directly above or below the other.
 PyVista's package [@SullivanKaszynski2019] allows for much of the modelling required in this exercise but only offers the projection of the normals of the gridded surface cells thus lacking the projection in the vertical direction.
 
-In this paper, we introduce a Python code allowing for the calculation of two point clouds' difference in the vertical direction wrapped in a simple and easy-to-use tkinter [@Lundh1999] GUI, streamlining the experience of browsing the computer system for the input files and eliminating the need to code. Various other Python [@VanRossum1995] packages are used including Pandas [@McKinney2010], Numpy [@Numpy2020], Scipy [@Scipy2020], Scikit-Learn [@Scikit-learn2011] and Matplotlib [@matplotlib2007].
+In this paper, we introduce a Python code allowing for the calculation of two point clouds' difference in the vertical direction wrapped in a simple and easy-to-use tkinter [@Lundh1999] GUI, streamlining the experience of browsing the computer system for the input files and eliminating the need to code.
 
 
 ## Acknowledgements
 
 This work was possible due to the sponsorship of Quintessa, the School of Geosciences at the The University of Edinburgh and Nuclear Waste Services, part of the Nuclear Decommissioning Authority in the United Kingdom.
+Various other Python [@VanRossum1995] packages are used including Pandas [@McKinney2010], Numpy [@Harris2020], Scipy [@Virtanen2020], Scikit-Learn [@Pedregosa2011] and Matplotlib [@Hunter2007].
+Other non-published code used is cited and acknowledged accordingly as comments and links in the code.
 
 
 ## References
