@@ -147,18 +147,18 @@ def createDifference():
         header2 = int(header_Entry2.get())
         readcols2 = [int(i) for i in readcols_Entry2.get().split(",")]
         skiprows2 = [i for i in skiprows_Entry2.get().split(",")]
-        fringe_aperture = simplest_type(fringeaperture_Entry.get())
+
         '''Global Variables'''
         
         if "" in skiprows1:
             df1 = pd.read_csv(pathCSV1 + CSVinputfilename1 + CSVinput_extension1, usecols = readcols1, header = header1)
         else:
-            skiprows = [simplest_type(i) for i in skiprows]
+            skiprows1 = [simplest_type(i) for i in skiprows1]
             df1 = pd.read_csv(pathCSV1 + CSVinputfilename1 + CSVinput_extension1, usecols = readcols1, header = header1, skiprows = skiprows1)           #  
         if "" in skiprows2:
             df2 = pd.read_csv(pathCSV2 + CSVinputfilename2 + CSVinput_extension2, usecols = readcols2, header = header2)
         else:
-            skiprows = [simplest_type(i) for i in skiprows]
+            skiprows2 = [simplest_type(i) for i in skiprows2]
             df2 = pd.read_csv(pathCSV2 + CSVinputfilename2 + CSVinput_extension2, usecols = readcols2, header = header2, skiprows = skiprows2)
     except:
         tkinter.messagebox.showerror(title = "Error", message = "There was an error reading the input file.\nThe most likely reason is that the file does not conform with the required format.\n\nMake sure the file has only 3 columns (x, y and aperture, respectively) and a header on row 1.")
@@ -166,12 +166,12 @@ def createDifference():
         if "" in skiprows1:
             df1 = pd.read_csv(pathCSV1 + CSVinputfilename1 + CSVinput_extension1, usecols = readcols1, header = header1)
         else:
-            skiprows = [int(i) for i in skiprows]
+            skiprows1 = [int(i) for i in skiprows1]
             df1 = pd.read_csv(pathCSV1 + CSVinputfilename1 + CSVinput_extension1, usecols = readcols1, header = header1, skiprows = skiprows1)
         if "" in skiprows2:
             df2 = pd.read_csv(pathCSV2 + CSVinputfilename2 + CSVinput_extension2, usecols = readcols2, header = header2)
         else:
-            skiprows = [int(i) for i in skiprows]
+            skiprows2 = [int(i) for i in skiprows2]
             df2 = pd.read_csv(pathCSV2 + CSVinputfilename2 + CSVinput_extension2, usecols = readcols2, header = header2, skiprows = skiprows2)
         
         dfcolnames1 = df1.columns
